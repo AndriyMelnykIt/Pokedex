@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Pokemon {
+  display: grid;
+  width: 70%;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+.Pokedex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.title{
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #000;
+  width: 500px;
+}
+
+.btn {
+  text-align: center;
+  margin: 10px 50px;
+}
+.btn button {
+  border-style: solid;
+  padding: 15px 200px;
+  border-radius: 5px;
+  background: #0F68B7;
+  color: #fff;
+  font-size: 20px;
+}
